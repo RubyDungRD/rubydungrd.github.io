@@ -1,0 +1,296 @@
+/* ==========================================================
+   RubyDung Website
+   Saving block game.
+   ========================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1a1a1a;
+    color: #d8d8d8;
+
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+
+    border-top: 6px solid #8d1b1b;
+}
+
+.container {
+    width: 90%;
+    max-width: 960px;
+    margin: auto;
+}
+
+/* ==========================================================
+   Header
+   ========================================================== */
+
+header {
+    background: #232323;
+    border-bottom: 1px solid #444;
+    padding: 35px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.tagline {
+    margin-top: 8px;
+    color: #9d9d9d;
+    font-style: italic;
+}
+
+/* ==========================================================
+   Navigation
+   ========================================================== */
+
+nav {
+    margin-top: 28px;
+}
+
+nav a {
+    display: inline-block;
+
+    margin-right: 6px;
+    margin-bottom: 6px;
+
+    padding: 8px 16px;
+
+    text-decoration: none;
+
+    color: #dcdcdc;
+
+    background: #2f2f2f;
+
+    border: 1px solid #555;
+
+    transition:
+        background .15s,
+        border-color .15s;
+}
+
+nav a:hover {
+    background: #444;
+    border-color: #888;
+}
+
+/* ==========================================================
+   Main
+   ========================================================== */
+
+main {
+    padding: 45px 0;
+}
+
+section {
+    margin-bottom: 45px;
+
+    background: #242424;
+
+    border: 1px solid #3d3d3d;
+
+    padding: 24px;
+}
+
+section h2 {
+    color: white;
+    margin-bottom: 16px;
+
+    border-bottom: 1px solid #444;
+
+    padding-bottom: 8px;
+}
+
+section p {
+    margin-bottom: 18px;
+}
+
+section ul {
+    padding-left: 22px;
+}
+
+section li {
+    margin-bottom: 8px;
+}
+
+/* ==========================================================
+   Hero
+   ========================================================== */
+
+.hero {
+    border-left: 5px solid #8d1b1b;
+}
+
+.hero h2 {
+    border: none;
+    margin-bottom: 18px;
+    padding: 0;
+
+    font-size: 2rem;
+}
+
+/* ==========================================================
+   Buttons
+   ========================================================== */
+
+.button-row {
+    margin-top: 28px;
+}
+
+.button {
+    display: inline-block;
+
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    padding: 10px 18px;
+
+    background: #8d1b1b;
+    color: white;
+
+    text-decoration: none;
+
+    border: 1px solid #aa3434;
+
+    font-weight: bold;
+}
+
+.button:hover {
+    background: #a32323;
+}
+
+/* ==========================================================
+   Tables
+   ========================================================== */
+
+.status-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.status-table td {
+    padding: 10px;
+    border: 1px solid #444;
+}
+
+.status-table td:first-child {
+    width: 220px;
+    font-weight: bold;
+    color: white;
+    background: #2d2d2d;
+}
+
+/* ==========================================================
+   News
+   ========================================================== */
+
+.news h3 {
+    margin-bottom: 12px;
+    color: white;
+}
+
+.news a {
+    color: #d56b6b;
+}
+
+.news a:hover {
+    color: white;
+}
+
+/* ==========================================================
+   Roadmap
+   ========================================================== */
+
+.roadmap {
+    list-style: none;
+    padding-left: 0;
+}
+
+.roadmap li {
+    padding: 7px 0;
+
+    border-bottom: 1px dotted #3c3c3c;
+
+    font-family: Consolas, monospace;
+}
+
+/* ==========================================================
+   Links
+   ========================================================== */
+
+a {
+    color: #d56b6b;
+}
+
+a:hover {
+    color: white;
+}
+
+/* ==========================================================
+   Footer
+   ========================================================== */
+
+footer {
+    margin-top: 60px;
+
+    border-top: 1px solid #444;
+
+    background: #202020;
+
+    color: #888;
+
+    font-size: .9rem;
+
+    padding: 30px 0;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+/* ==========================================================
+   Selection
+   ========================================================== */
+
+::selection {
+    background: #8d1b1b;
+    color: white;
+}
+
+/* ==========================================================
+   Responsive
+   ========================================================== */
+
+@media (max-width: 700px) {
+
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+
+    nav a {
+        display: block;
+        margin-right: 0;
+    }
+
+    .button {
+        display: block;
+        text-align: center;
+    }
+
+    .status-table td:first-child {
+        width: 140px;
+    }
+
+}
