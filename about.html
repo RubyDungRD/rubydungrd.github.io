@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About - RubyDung</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+
+        <h1>RubyDung</h1>
+
+        <p class="tagline">Saving block game.</p>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="roadmap.html">Roadmap</a>
+            <a href="blog.html">Blog</a>
+            <a href="legal.html">Legal</a>
+            <a href="https://github.com/RubyDungRD" target="_blank">GitHub</a>
+        </nav>
+
+    </div>
+</header>
+
+<main class="container">
+
+<section>
+
+<h2>What is RubyDung?</h2>
+
+<p>
+RubyDung is an independent open-source software project that begins with
+Minecraft 1.5.2 as a foundation and gradually rebuilds nearly every part of it.
+</p>
+
+<p>
+The long-term goal is to modernize the engine, rendering, architecture, build
+tooling, programming language, and modding support, while eventually becoming
+its own independent voxel sandbox.
+</p>
+
+<p>
+RubyDung is <strong>not</strong> a Minecraft mod, a client, a server plugin, or
+a launcher. It is its own codebase with its own build system, its own
+architecture, and its own future.
+</p>
+
+</section>
+
+<section>
+
+<h2>Why 1.5.2?</h2>
+
+<p>
+Minecraft 1.5.2 (the Redstone Update) represents a unique point in the game's
+history. It is old enough to be relatively simple and comprehensible as a
+codebase, yet modern enough to contain the core systems that define the game:
+the full block engine, item system, redstone, entities, world saving, and
+multiplayer.
+</p>
+
+<p>
+Starting from 1.5.2 gives us a complete, working game that we can understand
+in its entirety. There is no mystery code, no obfuscated legacy systems we
+cannot touch. Every line can be read, understood, and eventually replaced.
+</p>
+
+<p>
+Later versions of Minecraft grew increasingly complex, with thousands of
+classes and deeply entangled systems. 1.5.2 is the sweet spot: complex enough
+to be interesting, simple enough to be tractable.
+</p>
+
+</section>
+
+<section>
+
+<h2>The Philosophy</h2>
+
+<p>
+RubyDung follows a gradual replacement strategy rather than a rewrite. A
+complete rewrite of a codebase this size would take years before producing
+anything runnable. Instead, we replace components one at a time, always keeping
+the project in a working state.
+</p>
+
+<p>
+This approach has several advantages:
+</p>
+
+<ul>
+    <li>The project is always runnable and testable.</li>
+    <li>Each replacement can be validated independently.</li>
+    <li>We learn from the original code rather than repeating its mistakes.</li>
+    <li>Progress is visible and measurable at every step.</li>
+</ul>
+
+<p>
+We prioritize understanding over speed. The goal is not to produce a Minecraft
+clone as quickly as possible, but to build something better, piece by piece,
+with full understanding of each component.
+</p>
+
+</section>
+
+<section>
+
+<h2>The Ship of Theseus</h2>
+
+<p>
+RubyDung is a Ship of Theseus project. We start with the original Minecraft
+1.5.2 codebase and gradually replace every component until nothing of the
+original remains.
+</p>
+
+<p>
+At each step, the project remains a working game. The question of when it stops
+being "Minecraft with modifications" and becomes "RubyDung" is philosophical
+rather than technical. What matters is the process: understanding, improving,
+and eventually transcending the original.
+</p>
+
+<p>
+When the last line of original code is replaced, RubyDung will be something
+entirely its own. But the journey matters as much as the destination.
+</p>
+
+</section>
+
+<section>
+
+<h2>Long-Term Goals</h2>
+
+<ul>
+    <li>
+        <strong>Engine Modernization</strong> &mdash; Replace the legacy
+        rendering pipeline with a modern architecture. LWJGL migration,
+        shader-based rendering, and eventually a custom renderer.
+    </li>
+
+    <li>
+        <strong>Kotlin Migration</strong> &mdash; Gradually migrate the
+        codebase from Java to Kotlin, taking advantage of modern language
+        features while maintaining interoperability with existing Java code.
+    </li>
+
+    <li>
+        <strong>Modding API</strong> &mdash; Design a proper modding API
+        inspired by the best ideas from Forge, Fabric, Bukkit, and the
+        community. First-class support, stable APIs, and clear documentation.
+    </li>
+
+    <li>
+        <strong>Original Assets</strong> &mdash; Replace all original Minecraft
+        assets with original artwork, sound, and music. RubyDung will stand on
+        its own visually and audibly.
+    </li>
+
+    <li>
+        <strong>Architecture</strong> &mdash; Clean separation of concerns.
+        Client and server properly decoupled. Systems designed for testability
+        and maintainability.
+    </li>
+</ul>
+
+</section>
+
+</main>
+
+<footer>
+
+<div class="container">
+
+<p>
+RubyDung is an independent open-source project.
+</p>
+
+<p>
+It is not affiliated with Mojang Studios or Microsoft.
+Minecraft is a trademark of Mojang Synergies AB.
+</p>
+
+<p>
+<a href="https://github.com/RubyDungRD" target="_blank">GitHub</a>
+&mdash;
+&copy; 2024-2026 RubyDung Contributors
+</p>
+
+</div>
+
+</footer>
+
+</body>
+</html>
