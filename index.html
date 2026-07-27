@@ -6,54 +6,51 @@
 
     <title>RubyDung - Saving block game.</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-    <div class="logo">
-        RubyDung
-    </div>
+    <div class="container">
 
-    <div class="tagline">
-        Saving block game.
-    </div>
+        <h1>RubyDung</h1>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="roadmap.html">Roadmap</a>
-        <a href="blog.html">Blog</a>
-        <a href="legal.html">Legal</a>
-        <a href="https://github.com/RubyDungRD">GitHub</a>
-    </nav>
+        <p class="tagline">Saving block game.</p>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="roadmap.html">Roadmap</a>
+            <a href="blog.html">Blog</a>
+            <a href="legal.html">Legal</a>
+            <a href="https://github.com/RubyDungRD" target="_blank">GitHub</a>
+        </nav>
+
+    </div>
 </header>
 
-
-<main>
+<main class="container">
 
 <section class="hero">
 
-<h1>
-    RubyDung
-</h1>
+<h2>A modern rebuild of a classic foundation.</h2>
 
-<p class="subtitle">
-    An independent open-source voxel sandbox project
-    descended from Minecraft 1.5.2.
+<p>
+RubyDung is an independent open-source project descended from Minecraft 1.5.2,
+rebuilding its technology, architecture, tooling, and engine piece by piece
+into something new.
 </p>
 
 <p>
-    RubyDung explores what happens when a classic
-    foundation is rebuilt with modern engineering,
-    improved tooling, and lessons learned from years
-    of community development.
+It is not a mod, a server plugin, or a compatibility layer. RubyDung is its own
+codebase with its own future, guided by everything the Minecraft community has
+learned over the past seventeen years.
 </p>
 
-<div class="buttons">
-    <a href="about.html">Learn More</a>
-    <a href="roadmap.html">Roadmap</a>
+<div class="button-row">
+    <a class="button" href="about.html">Learn More</a>
+    <a class="button" href="https://github.com/RubyDungRD" target="_blank">View on GitHub</a>
 </div>
 
 </section>
@@ -61,54 +58,118 @@
 
 <section>
 
-<h2>
-    Current Development
-</h2>
+<h2>Current Status</h2>
 
-<div class="status-box">
+<table class="status-table">
+    <tr>
+        <td>Version</td>
+        <td>0.0.1-dev</td>
+    </tr>
 
-<p>
-<b>Version:</b> 0.0.1-dev
-</p>
+    <tr>
+        <td>Development</td>
+        <td>Active</td>
+    </tr>
 
-<p>
-<b>Phase:</b> Foundation
-</p>
+    <tr>
+        <td>Current Phase</td>
+        <td>Foundation</td>
+    </tr>
 
-<p>
-<b>Status:</b> Active Development
-</p>
-
-</div>
+    <tr>
+        <td>Focus</td>
+        <td>Modernization &amp; Code Cleanup</td>
+    </tr>
+</table>
 
 </section>
 
 
 <section>
 
-<h2>
-    Latest News
-</h2>
+<h2>Project Goals</h2>
 
-<p>
-Development blog coming soon.
-</p>
+<ul>
+    <li>Modernize Minecraft 1.5.2 from the ground up.</li>
+    <li>Replace legacy tooling with a modern development workflow.</li>
+    <li>Gradually migrate the project to Kotlin.</li>
+    <li>Modernize rendering and engine architecture.</li>
+    <li>Create an integrated modding API inspired by the best ideas from the community.</li>
+    <li>Eventually replace original assets with original artwork.</li>
+</ul>
 
 </section>
 
+
+<section>
+
+<h2>Latest Development</h2>
+
+<article class="news">
+
+<h3>Project Website Launch</h3>
+
+<p>
+Welcome to the official RubyDung website.
+Development is currently focused on modernizing the codebase, replacing
+obfuscated names with meaningful ones, reorganizing the project structure,
+and preparing the engine for future rendering and language upgrades.
+</p>
+
+<p>
+More development logs will appear here as work progresses.
+</p>
+
+<p>
+<a href="blog.html">Read the Development Blog →</a>
+</p>
+
+</article>
+
+</section>
+
+
+<section>
+
+<h2>Roadmap</h2>
+
+<ul class="roadmap">
+
+<li>✓ Gradle build system</li>
+<li>✓ Java 25 support</li>
+<li>✓ Package reorganization</li>
+<li>⟳ Variable and method mappings</li>
+<li>⟳ Kotlin migration</li>
+<li>⟳ Renderer modernization</li>
+<li>☐ Integrated modding API</li>
+<li>☐ Original assets</li>
+
+</ul>
+
+<p>
+<a href="roadmap.html">View the complete roadmap →</a>
+</p>
+
+</section>
 
 </main>
 
-
 <footer>
 
+<div class="container">
+
 <p>
-RubyDung is an independent project.
-Not affiliated with Mojang Studios or Microsoft.
+RubyDung is an independent open-source project.
 </p>
 
-</footer>
+<p>
+It is not affiliated with Mojang Studios or Microsoft.
+Minecraft is a trademark of Mojang Synergies AB.
+</p>
 
+</div>
+
+</footer>
 
 </body>
 </html>
